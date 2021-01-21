@@ -1,20 +1,18 @@
-/***GLOBAL***************/
-*{margin: 0 auto; padding: 0;}
+* {margin: 0 auto; padding: 0;}
 body{
 	display: flex;
   	justify-content: center;
   	align-items: center;
-	overflow::; hidden;
+	overflow: hidden;
 	background-color: #161616;
 	font-family: 'Comfortaa', cursive;
-	color : #e8ffe8;
+	color: #e8ffe8;
 	text-align: center;
 	text-shadow: 1px 1px 4px #000000;
 }
 canvas {
 	display: block;
- }
-
+}
 .btn{
 	margin: 10px;
 	padding: 8px 12px;
@@ -27,5 +25,5 @@ canvas {
 	border: 3px solid #111111;
 	opacity: 0.9;
 }
-.btn:hover{ opacity: 1; }
-.btn:active{ border: 3px solid #FFF; }
+.btn:hover{ opacity: 1 }
+.btn:active{ border: 3px solid #FFF }
